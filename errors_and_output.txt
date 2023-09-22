@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\Users\Antho\temp.py", line 74, in <module>
+    scraped_books = book_scraper.scrape_books()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Antho\temp.py", line 12, in scrape_books
+    url = work["url"]
+          ~~~~^^^^^^^
+KeyError: 'url'
